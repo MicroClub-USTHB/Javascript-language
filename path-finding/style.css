@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  width: 100%;
+  height: 97px;
+  background-color: #120f21;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid {
+  width: 100%;
+  height: 389px;
+}
+table {
+  height: 100%;
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+  height: 20px;
+}
+
+td {
+  width: 10px;
+  height: 20px;
+  border: 1px black solid;
+}
+
+.cell {
+  width: 100%;
+  height: 100%;
+  border: 1px black solid;
+}
